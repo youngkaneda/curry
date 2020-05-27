@@ -33,9 +33,9 @@ console.log(curriedAdd(3, 2)); // one way
 console.log(curriedAdd(1)(2)); // other way
 ```
 
-### Ariaty
+### Arity
 
-You can set a fixed size for the function arguments usign empty placeholders.
+You can set a fixed size for the function arguments.
 ```
 const {curry, _} from "name here";
 
