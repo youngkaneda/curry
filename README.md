@@ -11,7 +11,7 @@ npm install "name here"
 
 ### Normal use
 ```
-const {curry, _} from "name here"
+const {curry} from "name here";
 
 const add = (x, y, z) => x + y + z;
 const curriedAdd = curry(add);
@@ -22,16 +22,23 @@ console.log(curriedAdd(1)(2)(3)); // anoother way
 console.log(curriedAdd(1)(2, 3, 4)); // => throw error
 ```
 
-### With placeholders (not ariaty)
+### Placeholders
+You can pass default arguments and their position to the curried function.
 ```
+const {curry, _} from "name here";
+
 const add = (x, y, z) => x + y + z;
 const curriedAdd = curry(add, _, _, 4);
 console.log(curriedAdd(3, 2)); // one way
 console.log(curriedAdd(1)(2)); // other way
 ```
 
-### With placeholders (using ariaty)
+### Ariaty
+
+You can set a fixed size for the function arguments usign empty placeholders.
 ```
+const {curry, _} from "name here";
+
 const add = (...values) => values.reduce((prev, curr) => prev + curr);
 const curriedAdd = curry(add, _, _);
 console.log(curriedAdd(3, 2)); // one way
@@ -40,6 +47,8 @@ console.log(curriedAdd(1)(2, 3)); // => throw error
 ```
 
 ## Motivation
+
+I just want to write some useful functional code in javascript.
 
 ---
 
