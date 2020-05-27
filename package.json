@@ -1,0 +1,19 @@
+{
+  "name": "curry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngkaneda/curry.git"
+  },
+  "author": "Kaneda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngkaneda/curry/issues"
+  },
+  "homepage": "https://github.com/youngkaneda/curry#readme"
+}
