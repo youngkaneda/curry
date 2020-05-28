@@ -45,7 +45,8 @@ const {curry} from 'curry-fn';
 const add = (x, y, z) => x + y + z;
 const curriedAdd = curry(add);
 console.log(curriedAdd(1)(2)(3));
-// if you pass more than one arg than the function will ignore them
+// if you pass more than one arg, then the function will ignore them.
+// unary functions should receive only one parameter.
 console.log(curriedAdd(1)(2, 3)(3)); // => 6
 ```
 
