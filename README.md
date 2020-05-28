@@ -44,36 +44,30 @@ const {curry} from 'curry-fn';
 
 const add = (x, y, z) => x + y + z;
 const curriedAdd = curry(add);
-console.log(curriedAdd(1)(3, 2)); // one way
-console.log(curriedAdd(1, 2)(3)); // other way
-console.log(curriedAdd(1)(2)(3)); // anoother way
-// if you pass more args than the function accepts will thrown an error
-console.log(curriedAdd(1)(2, 3, 4)); // => throw error
+console.log(curriedAdd(1)(2)(3));
+// if you pass more than one arg than the function will ignore them
+console.log(curriedAdd(1)(2, 3)(3)); // => 6
 ```
 
-### Placeholders
-You can pass default arguments and their position to the curried function.
-```
-const {curry, _} from 'curry-fn';
+## Changelog
 
-const add = (x, y, z) => x + y + z;
-const curriedAdd = curry(add, _, _, 4);
-console.log(curriedAdd(3, 2)); // one way
-console.log(curriedAdd(1)(2)); // other way
-```
+## 1.0.0
 
-### Arity
+First release.
 
-You can set a fixed size for the function arguments.
-```
-const {curry, _} from 'curry-fn';
+## 1.1.0
 
-const add = (...values) => values.reduce((prev, curr) => prev + curr);
-const curriedAdd = curry(add, _, _);
-console.log(curriedAdd(3, 2)); // one way
-console.log(curriedAdd(1)(2)); // other way
-console.log(curriedAdd(1)(2, 3)); // => throw error
-```
+Tests added.
+
+## 1.2.0
+
+*For the sake of fudamentalism, I removed somes features, given the  fact that unary functions are a requirement in curry, and the potential leading to errors, and misunderstanding about arbitrary parameters sizes in function composition.*
+
+Removed features:
+
+1. Placeholders.
+2. Arbitrary arity.
+3. 1..N parameters per curried function.
 
 ## Motivation
 
