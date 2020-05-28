@@ -23,6 +23,11 @@
         <img src="https://img.shields.io/badge/License-ISC-blue.svg" alt=""/>
     </a>
   </p>
+  <p>
+    <sub>Built with ❤︎ by
+      <a href="https://github.com/youngkaneda">Kaneda</a>
+    </sub>
+  </p>
 </div>
 
 ## Instalation
@@ -74,13 +79,11 @@ console.log(curriedAdd(1)(2, 3)); // => throw error
 
 I just want to write some useful functional code in javascript.
 
+## TODO
+
+1. add tests.
+2. add code coverage.
+
 ---
 
 Feel free to fork and contribute.
-<div align="center">
-  <p>
-    <sub>Built with ❤︎ by
-      <a href="https://github.com/youngkaneda">Kaneda</a>
-    </sub>
-  </p> 
-</div>
