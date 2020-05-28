@@ -10,7 +10,7 @@
     <i>An useful function to make a multi params function be called in chains.</i>
   </p>
   <p>
-    <a aria-label="gitHub release" href="https://travis-ci.com/youngkaneda/curry">
+    <a aria-label="gitHub release" href="https://travis-ci.org/youngkaneda/curry">
         <img alt="" src="https://img.shields.io/travis/youngkaneda/curry"/>
     </a>
     <a aria-label="npm package" href="https://www.npmjs.com/package/curry-fn">
