@@ -22,7 +22,6 @@ const curry = (func, ...placeholders) => {
     const curr = (...args) => {
         // if the user try to pass more arguments then the function accept, it will throw an error.
         if (actualLength(args) > maxLength) {
-            console.log(actualLength(args), maxLength);
             throw new Error('Illegal arguments amount.');
         }
         if (actualLength(args) === maxLength) {

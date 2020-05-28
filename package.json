@@ -2,21 +2,25 @@
   "name": "curry-fn",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/curry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/youngkaneda/curry.git"
   },
   "keywords": [
-      "functional", "curry"
+    "functional",
+    "curry"
   ],
   "author": "Kaneda",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/youngkaneda/curry/issues"
   },
-  "homepage": "https://github.com/youngkaneda/curry#readme"
+  "homepage": "https://github.com/youngkaneda/curry#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }

@@ -81,7 +81,7 @@ I just want to write some useful functional code in javascript.
 
 ## TODO
 
-1. add tests.
+1. ~~add tests.~~
 2. add code coverage.
 
 ---
