@@ -1,5 +1,5 @@
 {
-  "name": "furry",
+  "name": "curry-fn",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/youngkaneda/furry.git"
+    "url": "git+https://github.com/youngkaneda/curry.git"
   },
   "author": "Kaneda",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/youngkaneda/furry/issues"
+    "url": "https://github.com/youngkaneda/curry/issues"
   },
-  "homepage": "https://github.com/youngkaneda/furry#readme"
+  "homepage": "https://github.com/youngkaneda/curry#readme"
 }
