@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/youngkaneda/curry.git"
   },
+  "keywords": [
+      "functional", "curry"
+  ],
   "author": "Kaneda",
   "license": "ISC",
   "bugs": {
